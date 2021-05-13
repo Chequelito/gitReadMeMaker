@@ -11,7 +11,9 @@ const questions = [
     { type: "input", name: "info", message: "What information would you like the user to know?" },
     { type: "input", name: "contribution", message: "What are the contribution guidelines?" },
     { type: "input", name: "test", message: "What are the test instructions?" },
-    { type: "list", name: "license", message: "Is this project licensed?", choices: ["mit", "apache", "none"] }
+    { type: "input", name: "email", message: "What is your email?" },
+    { type: "input", name: "github", message: "What is your github username?" },
+    { type: "list", name: "license", message: "Is this project licensed?", choices: ["MIT", "Apache", "GPL", "BSD", "ISC", "none"] }
 
 ];
 
